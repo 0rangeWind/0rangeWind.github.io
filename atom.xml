@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Zherui_Fan</title>
+  
+  <subtitle>Orange Blog</subtitle>
+  <link href="https://0rangewind.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://0rangewind.github.io/"/>
+  <updated>2023-02-21T05:51:38.954Z</updated>
+  <id>https://0rangewind.github.io/</id>
+  
+  <author>
+    <name>Zherui_Fan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My first blog</title>
+    <link href="https://0rangewind.github.io/2023/02/20/my-first-blog/"/>
+    <id>https://0rangewind.github.io/2023/02/20/my-first-blog/</id>
+    <published>2023-02-20T18:39:39.000Z</published>
+    <updated>2023-02-21T05:51:38.954Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我叫范哲睿，现在是一名大四学生（英制大学year3），现在正在利物浦大学学习computer</summary>
+        
+      
+    
+    
+    
+    <category term="日常" scheme="https://0rangewind.github.io/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="common" scheme="https://0rangewind.github.io/tags/common/"/>
+    
+  </entry>
+  
+</feed>

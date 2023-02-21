@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Zherui_Fan</title>
+  
+  <subtitle>Orange Blog</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-02-21T03:57:03.745Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Zherui_Fan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My first blog</title>
+    <link href="http://example.com/2023/02/20/my-first-blog/"/>
+    <id>http://example.com/2023/02/20/my-first-blog/</id>
+    <published>2023-02-20T18:39:39.000Z</published>
+    <updated>2023-02-21T03:57:03.745Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我叫范哲睿，现在是一名大四学生（英制大学year3），现在正在利物浦大学学习computer</summary>
+        
+      
+    
+    
+    
+    <category term="日常" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="common" scheme="http://example.com/tags/common/"/>
+    
+  </entry>
+  
+</feed>

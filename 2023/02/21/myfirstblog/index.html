@@ -48,9 +48,9 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.3.0">
-<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="OrangeWind" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="OrangeWind" type="application/atom+xml">
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 
@@ -122,17 +122,6 @@
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
       <span>关于</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/contact" class="waves-effect waves-light">
-      
-      <i class="fas fa-comments" style="zoom: 0.6;"></i>
-      
-      <span>留言板</span>
     </a>
     
   </li>
@@ -217,17 +206,6 @@
 			    <i class="fa-fw fas fa-user-circle"></i>
 			
 			关于
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/contact" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-comments"></i>
-			
-			留言板
 		</a>
           
         </li>
@@ -394,11 +372,9 @@
             <div id="articleContent">
                 <p>我叫范哲睿，现在是一名大四学生（英制大学year3），现在正在利物浦大学学习computer science专业。实际上大学四年都只是正常的为绩点学习，并没有像体制内学生一样早早开始丰富自己的求职能力，以为只要找到好研究生，以高成绩毕业，回国工作就高枕无忧了。前几天偶然看到计算机求职信息，详细了解之后我才发现求职实际上还是全都依靠自身的积累，你的主语言掌握如何，项目经验是否可靠，计算机四大件功底是否扎实。所以我下定决心从现在开始积累个人能力，并创建了这个博客来记录我的学习生活。</p>
 <p>下面测试一下代码高亮：</p>
-<pre class="line-numbers language-none"><code class="language-none">
-int main(){
-  return main();
-}
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <p>PS:碎碎念一句，其实我这篇博客本身是叫”My first Blog”的，感觉用英文比较洋气。但是一直出现部署成功，主页和其他功能都正常可以使用，唯独一点开这篇博客就直接404的问题。我花了一个小时排查各种问题，从CNAME文件的重写移动到装各种插件自动生成CNAME文件（因为我觉得是因为url地址不对导致这篇博客的网址没读到这篇博客的静态html文件），结果都没用。查来查去，刚才查到了一个人在抱怨说hexo的博客md文件的文件名，文章名，分类名一致就容易只有这篇文章404（并且似乎文件名出现非英文符号也有可能出现这种错误），总之遇到这种情况就把文件名和文章名都改改以后再hexo cgd三件套一次吧。我一边想着“怎么会有这么脑残的bug啊”一边死马当活马医把这篇文章标题改成了中文，把文件名改成了规整的“MyFirstBlog”又部署了一遍，结果发现真的成功了，怎会如此（</p>
 <p>PPS：呃，加了上面那段话以后又404了，再改成英文看看，如果我后面没再加话应该是行了</p>
@@ -513,18 +489,17 @@ int main(){
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2023/02/21/myfirstblog/">
+                <a href="/2023/02/21/testcdn/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/HW/37.PNG" class="responsive-img" alt="My first blog">
+                        <img src="/medias/HW/53.PNG" class="responsive-img" alt="新添加CDN图床的测试">
                         
-                        <span class="card-title">My first blog</span>
+                        <span class="card-title">新添加CDN图床的测试</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -534,27 +509,30 @@ int main(){
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-21
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2023-02-21
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%97%A5%E5%B8%B8/" class="post-category">
-                                    日常
+                            <a href="/categories/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/" class="post-category">
+                                    关于本站
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
                     <a href="/tags/common/">
                         <span class="chip bg-color">common</span>
+                    </a>
+                    
+                    <a href="/tags/BlogChange/">
+                        <span class="chip bg-color">BlogChange</span>
                     </a>
                     
                 </div>
@@ -669,7 +647,7 @@ int main(){
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">563</span>
+                        class="white-color">1.1k</span>
             
             
             

@@ -4,11 +4,38 @@
   
     
     <entry>
+      <title>新添加CDN图床的测试</title>
+      <link href="/2023/02/21/testcdn/"/>
+      <url>/2023/02/21/testcdn/</url>
+      
+        <content type="html"><![CDATA[<p>博客中往往会用到很多图片，如果这些图片全部都保存在博客的source文件夹下肯定是不行的，博客文件会越来越大。所以我使用Github+Jsdeliver+PicGo为这个博客搭了一个图床，本质上图床就是将需要使用的图片上传到网络可访问的仓库而非本地文件夹内，并使用独立url访问进行加载。本篇博客用于测试图床的安装情况。</p><p>1.先将图片上传PicGo以后直接在文章中填入生成的url链接：</p><p><img src="https://raw.githubusercontent.com/0rangeWind/myBlogCDN/master/post/bg1.jpg"></p><p>2.利用Typora上传图片后直接同时上传PicGo的设置进行图片上传:</p><p><img src="https://raw.githubusercontent.com/0rangeWind/myBlogCDN/master/post/bg2.jpg"></p><p>如果上面两张图片都能正常显示，则表示CDN图床正常工作。</p><p>补充日志1：第一次操作失败。Github里有显示图片说明上传成功了，但是PicGo相册里的图片却无法显示，本篇文章的测试图片也无法显示。一番查找之后我直接使用图床生成的链接打开图片发现显示”too many request“，好家伙，原来是Jsdeliver这家CDN炸了，换个CDN试试。</p><p>补充日志2：经过上面的事情后我去寻找其他的CDN加速，发现挂了好多。。。仔细思考了以后决定不使用CDN中转加速了，万一什么时候挂了前面的图床全部木大。直接使用GitHub的访问链接得了，虽然可能慢一点，但胜在稳定，但是这样还能叫CDN图床吗。。。算了管他的。顺便我发现PicGo本地相册删除照片并不会同步删除Github上图床里的照片，这样如果误上传或做相关测试上传了无意义图片，没及时上Github 删除的话，仓库里就可能存放有大量垃圾文件，所以我追加下载了Github-plus插件来解决这个问题。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 关于本站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> common </tag>
+            
+            <tag> BlogChange </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>My first blog</title>
       <link href="/2023/02/21/myfirstblog/"/>
       <url>/2023/02/21/myfirstblog/</url>
       
-        <content type="html"><![CDATA[<p>我叫范哲睿，现在是一名大四学生（英制大学year3），现在正在利物浦大学学习computer science专业。实际上大学四年都只是正常的为绩点学习，并没有像体制内学生一样早早开始丰富自己的求职能力，以为只要找到好研究生，以高成绩毕业，回国工作就高枕无忧了。前几天偶然看到计算机求职信息，详细了解之后我才发现求职实际上还是全都依靠自身的积累，你的主语言掌握如何，项目经验是否可靠，计算机四大件功底是否扎实。所以我下定决心从现在开始积累个人能力，并创建了这个博客来记录我的学习生活。</p><p>下面测试一下代码高亮：</p><pre class="line-numbers language-none"><code class="language-none">int main(){  return main();}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>PS:碎碎念一句，其实我这篇博客本身是叫”My first Blog”的，感觉用英文比较洋气。但是一直出现部署成功，主页和其他功能都正常可以使用，唯独一点开这篇博客就直接404的问题。我花了一个小时排查各种问题，从CNAME文件的重写移动到装各种插件自动生成CNAME文件（因为我觉得是因为url地址不对导致这篇博客的网址没读到这篇博客的静态html文件），结果都没用。查来查去，刚才查到了一个人在抱怨说hexo的博客md文件的文件名，文章名，分类名一致就容易只有这篇文章404（并且似乎文件名出现非英文符号也有可能出现这种错误），总之遇到这种情况就把文件名和文章名都改改以后再hexo cgd三件套一次吧。我一边想着“怎么会有这么脑残的bug啊”一边死马当活马医把这篇文章标题改成了中文，把文件名改成了规整的“MyFirstBlog”又部署了一遍，结果发现真的成功了，怎会如此（</p><p>PPS：呃，加了上面那段话以后又404了，再改成英文看看，如果我后面没再加话应该是行了</p>]]></content>
+        <content type="html"><![CDATA[<p>我叫范哲睿，现在是一名大四学生（英制大学year3），现在正在利物浦大学学习computer science专业。实际上大学四年都只是正常的为绩点学习，并没有像体制内学生一样早早开始丰富自己的求职能力，以为只要找到好研究生，以高成绩毕业，回国工作就高枕无忧了。前几天偶然看到计算机求职信息，详细了解之后我才发现求职实际上还是全都依靠自身的积累，你的主语言掌握如何，项目经验是否可靠，计算机四大件功底是否扎实。所以我下定决心从现在开始积累个人能力，并创建了这个博客来记录我的学习生活。</p><p>下面测试一下代码高亮：</p><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  <span class="token keyword">return</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>PS:碎碎念一句，其实我这篇博客本身是叫”My first Blog”的，感觉用英文比较洋气。但是一直出现部署成功，主页和其他功能都正常可以使用，唯独一点开这篇博客就直接404的问题。我花了一个小时排查各种问题，从CNAME文件的重写移动到装各种插件自动生成CNAME文件（因为我觉得是因为url地址不对导致这篇博客的网址没读到这篇博客的静态html文件），结果都没用。查来查去，刚才查到了一个人在抱怨说hexo的博客md文件的文件名，文章名，分类名一致就容易只有这篇文章404（并且似乎文件名出现非英文符号也有可能出现这种错误），总之遇到这种情况就把文件名和文章名都改改以后再hexo cgd三件套一次吧。我一边想着“怎么会有这么脑残的bug啊”一边死马当活马医把这篇文章标题改成了中文，把文件名改成了规整的“MyFirstBlog”又部署了一遍，结果发现真的成功了，怎会如此（</p><p>PPS：呃，加了上面那段话以后又404了，再改成英文看看，如果我后面没再加话应该是行了</p>]]></content>
       
       
       <categories>

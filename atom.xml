@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Zherui_Fan</title>
+  <title>OrangeWind</title>
   
-  <subtitle>Orange Blog</subtitle>
+  <subtitle>Welcome to My Blog</subtitle>
   <link href="https://0rangewind.github.io/atom.xml" rel="self"/>
   
   <link href="https://0rangewind.github.io/"/>
-  <updated>2023-02-21T06:36:01.082Z</updated>
+  <updated>2023-02-21T17:28:35.683Z</updated>
   <id>https://0rangewind.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>My First Blog</title>
+    <title>My first blog</title>
     <link href="https://0rangewind.github.io/2023/02/21/myfirstblog/"/>
     <id>https://0rangewind.github.io/2023/02/21/myfirstblog/</id>
     <published>2023-02-21T06:20:11.000Z</published>
-    <updated>2023-02-21T06:36:01.082Z</updated>
+    <updated>2023-02-21T17:28:35.683Z</updated>
     
     
       

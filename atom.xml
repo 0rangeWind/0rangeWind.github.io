@@ -3,11 +3,11 @@
   <title>Zherui_Fan</title>
   
   <subtitle>Orange Blog</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://0rangewind.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://0rangewind.github.io/"/>
   <updated>2023-02-21T03:57:03.745Z</updated>
-  <id>http://example.com/</id>
+  <id>https://0rangewind.github.io/</id>
   
   <author>
     <name>Zherui_Fan</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>My first blog</title>
-    <link href="http://example.com/2023/02/20/my-first-blog/"/>
-    <id>http://example.com/2023/02/20/my-first-blog/</id>
+    <link href="https://0rangewind.github.io/2023/02/20/my-first-blog/"/>
+    <id>https://0rangewind.github.io/2023/02/20/my-first-blog/</id>
     <published>2023-02-20T18:39:39.000Z</published>
     <updated>2023-02-21T03:57:03.745Z</updated>
     
@@ -34,10 +34,10 @@
     
     
     
-    <category term="日常" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://0rangewind.github.io/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="common" scheme="http://example.com/tags/common/"/>
+    <category term="common" scheme="https://0rangewind.github.io/tags/common/"/>
     
   </entry>
   

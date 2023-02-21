@@ -5,8 +5,8 @@
     
     <entry>
       <title>My first blog</title>
-      <link href="/2023/02/20/my-first-blog/"/>
-      <url>/2023/02/20/my-first-blog/</url>
+      <link href="https://0rangewind.github.io/2023/02/20/my-first-blog/"/>
+      <url>https://0rangewind.github.io/2023/02/20/my-first-blog/</url>
       
         <content type="html"><![CDATA[<p>我叫范哲睿，现在是一名大四学生（英制大学year3），现在正在利物浦大学学习computer science专业。实际上大学四年都只是正常的为绩点学习，并没有像体制内学生一样早早开始丰富自己的求职能力，以为只要找到好研究生，以高成绩毕业，回国工作就高枕无忧了。前几天偶然看到计算机求职信息，详细了解之后我才发现求职实际上还是全都依靠自身的积累，你的主语言掌握如何，项目经验是否可靠，计算机四大件功底是否扎实。所以我下定决心从现在开始积累个人能力，并创建了这个博客来记录我的学习生活。</p><p>下面测试一下代码高亮：</p><pre class="line-numbers language-none"><code class="language-none">int main(){  return main();}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
       
